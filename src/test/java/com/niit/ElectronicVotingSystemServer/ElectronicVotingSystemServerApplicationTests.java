@@ -139,7 +139,7 @@ public class ElectronicVotingSystemServerApplicationTests {
 		AdministratorImpl ad=new AdministratorImpl(ele,par,cand,appd);
 		ArrayList<ApplicationBean> arr2=ad.viewAllAdminPendingApplications();
 		//System.out.println(arrT.remove(1).toString());
-		assertEquals("View Pending Applications Failed",arrT,arr2);
+		assertEquals("View Pending Applications Failed",arr,arr2);
 		//assertNotEquals(arr, arr2);
 	}
 	
